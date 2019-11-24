@@ -1,0 +1,99 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: linear-gradient(#000, #444)!important;
+}
+.page-wrapper{
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #222;
+    text-shadow:
+    -1px -1px 0 #ccc,  
+    1px -1px 0 #888,
+    1px 1px 0 #888,
+    -1px 1px 0 #ccc;
+    font-size: 40px;
+}
+h2 {
+    text-align: center;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0.15em;
+    padding: 0px;
+    margin:0px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+textarea#password {
+    display: block;
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+    height: 150px;
+    border-radius: 15px;
+    padding: 40px 15px;
+    box-sizing: border-box;
+    border-right:2px solid #888;
+    border-bottom:2px solid #888;
+    border-left:2px solid #ccc;
+    border-top:2px solid #ccc;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-size: 18px;
+}
+textarea#password::placeholder{
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.5;
+    color: #000000;
+}
+.btn-group {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+button#generate, button#copy {
+    padding: 8px 25px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    border-right:2px solid #888;
+    border-bottom:2px solid #888;
+    border-left:2px solid #ccc;
+    border-top:2px solid #ccc;
+}
+button#generate {
+    background-image: linear-gradient(to right, #f54284, #a9083f);
+}
+button#copy{
+    background-image: linear-gradient(to right, #FF5722, #bd350a);
+}
+button#generate:hover, button#copy:hover {
+    text-transform: uppercase;
+    border-left:2px solid #888;
+    border-top:2px solid #888;
+    border-right:2px solid #ccc;
+    border-bottom:2px solid #ccc;
+}
+button#generate:hover {
+    background-image: linear-gradient(to left, #f54284, #a9083f);
+}
+button#copy:hover{
+    background-image: linear-gradient(to left, #FF5722, #bd350a);
+}
